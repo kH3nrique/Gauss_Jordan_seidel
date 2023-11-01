@@ -1,8 +1,6 @@
 #ifndef GAUSSJORDAN_H
 #define GAUSSJORDAN_H
 
-#define tam 100
-
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -87,7 +85,7 @@ void gaussJordan(vector<vector<double>> &jordan, int t) {
 } 
 
 void preencheJordan(){//insere os valores na matriz
-    ifstream file("C:\\Users\\henri\\OneDrive\\Documentos\\Prat 2\\jordan.txt");
+    ifstream file("C:\\Users\\henri\\OneDrive\\Documentos\\Prat 2\\Gauss_Jordan_seidel\\jordan.txt");
     while (file){
         int t;
         if (!( file >> t))

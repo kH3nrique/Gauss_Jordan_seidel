@@ -53,7 +53,7 @@ vector<double> gaussSeinel(const vector<vector<double>> &seidel, int t, double k
 
 
 void preencheSeidel(){//insere os valores na matriz
-    ifstream file("C:\\Users\\henri\\OneDrive\\Documentos\\Prat 2\\seidel.txt");
+    ifstream file("C:\\Users\\henri\\OneDrive\\Documentos\\Prat 2\\Gauss_Jordan_seidel\\seidel.txt");
     
     while (file)
     {
